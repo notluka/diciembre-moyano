@@ -1,0 +1,98 @@
+﻿Portada
+Proyecto de Plataforma de Denuncias Ciudadanas  
+Desarrollado por: Luka Benitez
+Fecha de Entrega: 18/12/2023
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Índice  
+1. Situación Actual
+2. Objetivo del Proyecto
+3. Desarrollo del Proyecto
+4. Materiales y Sitios Utilizados
+5. Sitios Desarrollados
+6. Procesos Implementados
+7. Ventajas y Desventajas
+8. Estado Actual del Proyecto
+9. Bibliografía
+Situación Actual
+El proyecto surge como respuesta a la necesidad de proporcionar a la comunidad una plataforma efectiva para realizar denuncias ciudadanas y contribuir al mejoramiento de nuestro entorno.
+Objetivo del Proyecto
+El objetivo principal es crear una plataforma accesible y fácil de usar que permita a los ciudadanos presentar denuncias de manera rápida y segura, facilitando así la comunicación con las autoridades competentes.
+Desarrollo del Proyecto
+El proyecto fue concebido con una fase de planificación detallada seguida de la implementación utilizando tecnologías web modernas. Se abordaron los desafíos técnicos y de diseño para ofrecer una experiencia óptima al usuario.
+Materiales y Sitios Utilizados  
+* Lenguajes: HTML, CSS, PHP
+* Herramientas: MySQL, GitHub
+* Tecnologías: Bootstrap, JavaScript
+* Entorno de Desarrollo: Visual Studio Code
+Sitios Desarrollados
+Se han desarrollado varios sitios, incluyendo:
+* Plataforma de Denuncias Ciudadanas: Interfaz principal para presentar denuncias.
+* Panel de Control: Herramienta administrativa para gestionar denuncias.
+Procesos Implementados
+Flujo de Presentación de Denuncias
+   * El registro requiere información básica, como correo electrónico y contraseña.
+* Presentación de Denuncias:
+   * Al seleccionar "Presentar Denuncia", los usuarios son guiados a un formulario detallado.
+   * El formulario solicita información específica, como categoría, título, descripción y datos de contacto.
+* Generación de Número Único:
+   * Después de completar el formulario, se genera un número de denuncia único.
+   * Este número se asocia con la denuncia y sirve como referencia para futuras consultas.
+* Confirmación y Agradecimiento:
+   * Tras la presentación exitosa, se muestra un mensaje de confirmación.
+   * Se agradece al usuario por su contribución y se proporciona información adicional.
+Panel de Control Administrativo  
+* Inicio de Sesión en el Panel de Control:
+   * Los administradores acceden al Panel de Control mediante autenticación.
+   * Se utiliza un sistema de usuario y contraseña, almacenados de forma segura en la base de datos.
+* Vista General de Denuncias:
+   * En el Panel de Control, se presenta una vista general de todas las denuncias presentadas.
+   * La información clave, como número de denuncia, categoría y estado, se muestra en una tabla organizada.
+* Filtros y Búsqueda:
+   * Los administradores pueden filtrar denuncias por categoría para facilitar la gestión.
+
+
+Ventajas y Desventajas
+Ventajas:
+* Facilita la presentación de denuncias.
+* Interfaz amigable para el usuario.
+Desventajas:
+* Posibles mejoras en la velocidad de carga.
+* Posibles mejoras en la seguridad
+Estado Actual del Proyecto
+El proyecto se encuentra en funcionamiento y se están considerando mejoras futuras para optimizar el rendimiento y agregar nuevas funciones.
+Bibliografía
+* Repositorio en GitHub
+* Index
+* Panel control  
+* Documentación
