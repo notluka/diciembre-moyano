@@ -1,0 +1,121 @@
+/* Estilos del encabezado */
+.App-header {
+    background-color: #0d47a1;
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container img {
+    max-width: 100px;
+}
+
+.project-info {
+    text-align: center;
+}
+
+.shortcuts a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background-color: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* Estilos del formulario de denuncia */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.App-header {
+    background-color: #0d47a1;
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container img {
+    max-width: 100px;
+}
+
+.project-info {
+    text-align: center;
+}
+
+.shortcuts a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.denuncia-section {
+    background-color: #ffffff;
+    padding: 50px;
+    text-align: center;
+}
+
+.denuncia-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #0d47a1;
+    -webkit-text-stroke-color: rgb(14, 55, 47);
+    -webkit-text-stroke-width: 2px;
+    font-size: 30px;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0d47a1;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #07409b;
+}

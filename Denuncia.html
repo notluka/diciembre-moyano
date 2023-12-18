@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haz una Denuncia</title>
+    <link rel="stylesheet" type="text/css" href="Denuncia.css">
+</head>
+<body>
+    <header class="App-header">
+        <div class="logo-container">
+            <!--  imagen logo -->
+            <img src="./public/logo.jpeg" alt="Logo de la plataforma" />
+        </div>
+        <div class="project-info">
+            <h1>Plataforma de Denuncias Ciudadanas</h1>
+            <div class="shortcuts">
+                <a href="./Novedades.html">Novedades</a>
+                <a href="./Denuncia.html">Haz una Denuncia</a>
+                <a href="./index.html">Home</a>
+            </div>
+        </div>
+    </header>
+
+     <!-- Sección de Denuncia -->
+    <section class="denuncia-section">
+        <div class="denuncia-content">
+            <h2>Haz una Denuncia</h2>
+            <form action="./procesar-denuncia.php" method="post">
+                <!-- Campo de selección de categoría -->
+                <label for="categoria">Categoría:</label>
+                <select id="categoria" name="categoria" required>
+                    <option value="" disabled selected>Seleccione una categoría</option>
+                    <option value="1">Medio Ambiente</option>
+                    <option value="2">Seguridad Ciudadana</option>
+                    <option value="3">Servicios Públicos</option>
+                    <option value="4">Infraestructura</option>
+                    <option value="5">Salud Pública</option>
+                    <option value="6">Educación</option>
+                    <option value="7">Tráfico y Transporte</option>
+                    <option value="8">Vivienda</option>
+                    <option value="9">Discriminación</option>
+                </select>
+
+
+                <label for="titulo">Título:</label>
+                <input type="text" id="titulo" name="titulo" required>
+
+                <label for="descripcion">Descripción:</label>
+                <textarea id="descripcion" name="descripcion" rows="4" required></textarea>
+
+                <label for="numDocumento">Número de Documento:</label>
+                <input type="text" id="numDocumento" name="numDocumento" required>
+
+                <label for="numDomicilio">Número de Domicilio:</label>
+                <input type="text" id="numDomicilio" name="numDomicilio" required>
+
+                <label for="numTelefono">Número de Teléfono:</label>
+                <input type="tel" id="numTelefono" name="numTelefono" required>
+
+                <label for="correoElectronico">Correo Electrónico:</label>
+                <input type="email" id="correoElectronico" name="correoElectronico" required>
+
+                <!-- Botón de envío del formulario -->
+                <button type="submit">Enviar Denuncia</button>
+            </form>
+    </section>
+    
+    <footer>
+        <p>Contacto: contacto@plataformadenuncias.com</p>
+        <p>&copy; 2023 Plataforma de Denuncias Ciudadanas. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

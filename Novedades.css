@@ -1,0 +1,60 @@
+/* Estilos del encabezado */
+.App-header {
+    background-color: #0d47a1;
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container img {
+    max-width: 100px;
+}
+
+.project-info {
+    text-align: center;
+}
+
+.shortcuts a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+
+/* Sección de Novedades */
+.novedades-section {
+    background-color: white; /*primario */
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.novedades-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.blog-entry {
+    background-color: #64b5f6; /* Azul claro */
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.blog-entry h3 {
+    color: #0d47a1; /* Azul oscuro */
+}
+
+/* Footer */
+footer {
+    background-color: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}

@@ -1,0 +1,115 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilos del encabezado */
+.App-header {
+    background-color: #0d47a1;
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container img {
+    max-width: 100px;
+}
+
+.project-info {
+    text-align: center;
+}
+
+.shortcuts a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Sección Principal */
+.main-section {
+    background-image: url('./public/imagen_fondo.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    height: 100%;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.main-content h2 {
+    color: #0d47a1;
+    -webkit-text-stroke-color: rgb(14, 55, 47);
+    -webkit-text-stroke-width: 2px;
+    font-size: 40px;
+}
+
+.cta-buttons button {
+    background-color: gray;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.main-section .main-content h3 {
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    font-size: 37px;
+}
+
+/* Sobre Nosotros y Proyecto */
+.about-section {
+    background-color: white;
+    color: #333;
+    padding: 100px 0;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-text {
+    max-width: 600px;
+    text-align: left;
+}
+
+.about-image {
+    max-width: 600px;
+    text-align: right;
+}
+
+.about-image img {
+    max-width: 70%;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}

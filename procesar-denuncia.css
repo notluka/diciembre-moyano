@@ -1,0 +1,56 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilos del encabezado */
+.App-header {
+    background-color: #0d47a1;
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container img {
+    max-width: 100px;
+}
+
+.project-info {
+    text-align: center;
+}
+
+.shortcuts a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Contenedor del mensaje y estilos de la imagen de colaboración */
+.message-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.colaboracion-image {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
